@@ -23,17 +23,163 @@ top:10%
 #ul_main li{
     display:inline;
     margin-top:1%;
+    font-size: 1.5em;
 }
 .name_first{
     margin-left:43%;
     position:absolute;
+    font-family: 'Press Start 2P', cursive;
+    color:#583009;
 }
 .shop{
     position:absolute;
-    left:89%;
-}
-.name_second{
-    position:absolute;
-    left:90%;
+    left:88%;
+    top:5px;
+    border: 1px solid #583009;
+    border-width: 10px;
+    border-width:thin;
+    height:35px;
+    width:170px;
+    line-height:35px;
 
+}
+.three_lines, .search{
+    position:absolute;
+    top:1%;
+    left:7%;
+
+    
+}
+.search{
+    margin-left:70px;
+}
+.line {
+	margin: -30px auto 10px;
+	padding: 0;
+	height: 100px;
+	border: none;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+	width: 95%;
+}
+.nameSite{
+    text-align:center;
+}
+.three_block{
+    margin-left:100px;
+    margin-top:50px;
+}
+.three_block{
+    width:865px;
+    height:278px;
+    position:absolute;
+    z-index:1;
+
+}
+.second_text{
+    font-size:10em;
+    font-family: 'Frijole', cursive;
+    color:red;
+}
+.three_text{
+    margin-left:70%;
+    margin-top:-122px;
+    font-size:20px;
+    color:#583009;
+}
+.first_text{
+    font-size:20px;
+    font-family: 'Frijole', cursive;
+    color:#583009;
+}
+#chocolate_photo{
+height:100%;
+width:100%;
+    background-image:url('Chocolate.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:55%;
+    position:absolute;
+    top:160px;
+    right:300px;
+    z-index:0;
+}
+#table{
+    width:350px;
+    height:415px;
+    margin-left:72%;
+    margin-top:5%;
+    border: 1px solid #583009;
+    border-width: 10px;
+    border-width:thin;
+}
+.name_table1,.name_table2,.name_table3{
+margin-left:10%;
+font-family: 'Lobster', cursive;
+font-size:18px;
+color:#583009
+
+}
+.line_table{
+    margin: -42px auto 10px;
+	padding: 0;
+	height: 100px;
+	border: none;
+	border-bottom: 1px solid #583009;
+	width: 95%; 
+}
+.percent_table{
+    font-size:60px;
+    margin-left:5%;
+    color:#583009
+}
+.name_table1{
+    position:absolute;
+    top:215px;
+    right:387px;
+}
+.name_table2{
+    position:absolute;
+    top:355px;
+    right:320px;
+}
+.name_table3{
+    position:absolute;
+    top:495px;
+    right:350px;
+}
+#organic{
+    background-image:url('100_organic.png');
+    width:20%;
+    height:20%;
+    background-repeat:no-repeat;
+    background-size:180px;
+    position:absolute;
+    top:80px;
+    left:80%;
+}
+#four_block{
+    width:1200px;
+    height:306px;
+    position:absolute;
+    left:35%;
+    top:620px;
+}
+.name_block1{
+    margin-left:56%;
+    font-size:20px;
+    font-family: 'Frijole', cursive;
+    color:#583009;
+}
+.name_block2{
+    font-size:5em;
+    font-family: 'Frijole', cursive;
+    color:gold;
+    margin-left:56%;
+}
+.name_block3{
+    margin-right:50%;
+    margin-top:-7%;
+    font-size:20px;
+    color:#583009;
 }
